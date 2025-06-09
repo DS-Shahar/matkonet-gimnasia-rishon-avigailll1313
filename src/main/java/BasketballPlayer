@@ -1,0 +1,9 @@
+public class BasketballPlayer {
+ private String name;
+ private int seasonsPlayed;
+ private int seasonSalary;
+ 
+ public int totalEarnings() {
+	 return seasonsPlayed*seasonSalary;
+ }
+}
